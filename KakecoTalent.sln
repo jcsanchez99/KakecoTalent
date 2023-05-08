@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{03D580BC-21C8-4AA3-AAFA-C8B26C228FAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CEA06B2A-2B65-432D-8775-D45AF22E8667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{2E8BAB7C-E48D-4CA3-AFCF-6E6F0113B581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{97A9556C-B012-4BC9-B443-C18D1E0BC891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{BFA6F1DB-33CF-4C1C-A217-6DCE795F19F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.Domain", "src\KakecoTalent.Domain\KakecoTalent.Domain.csproj", "{E2CEC6F1-074E-408B-A34C-049BEE15659E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.Infraestructure", "src\KakecoTalent.Infraestructure\KakecoTalent.Infraestructure.csproj", "{CCBF0407-EA85-4F53-80F5-91DA0CD5CFDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.Persistence", "src\KakecoTalent.Persistence\KakecoTalent.Persistence.csproj", "{B3146E2A-B8EE-4F90-ABD5-2EE2F1631B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.Application.Dtos", "src\KakecoTalent.Application.Dtos\KakecoTalent.Application.Dtos.csproj", "{A7A45E51-96A5-4CDE-8ABB-C787F9CEE3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.Application.Interface", "src\KakecoTalent.Application.Interface\KakecoTalent.Application.Interface.csproj", "{C65C9F34-DB0C-4A5C-893F-1945603238EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.Application.UseCase", "src\KakecoTalent.Application.UseCase\KakecoTalent.Application.UseCase.csproj", "{AF01588D-356F-49F7-9DDD-1CE6BBC24323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.API", "src\KakecoTalent.API\KakecoTalent.API.csproj", "{69C5777F-0F82-4033-A7C0-9EDA27EEC37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakecoTalent.Utilities", "src\KakecoTalent.Utilities\KakecoTalent.Utilities.csproj", "{8B856C7F-A138-4B9B-9DD7-BE2A0DA4DB18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2CEC6F1-074E-408B-A34C-049BEE15659E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CEC6F1-074E-408B-A34C-049BEE15659E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CEC6F1-074E-408B-A34C-049BEE15659E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CEC6F1-074E-408B-A34C-049BEE15659E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBF0407-EA85-4F53-80F5-91DA0CD5CFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBF0407-EA85-4F53-80F5-91DA0CD5CFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBF0407-EA85-4F53-80F5-91DA0CD5CFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBF0407-EA85-4F53-80F5-91DA0CD5CFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3146E2A-B8EE-4F90-ABD5-2EE2F1631B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3146E2A-B8EE-4F90-ABD5-2EE2F1631B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3146E2A-B8EE-4F90-ABD5-2EE2F1631B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3146E2A-B8EE-4F90-ABD5-2EE2F1631B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A45E51-96A5-4CDE-8ABB-C787F9CEE3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A45E51-96A5-4CDE-8ABB-C787F9CEE3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A45E51-96A5-4CDE-8ABB-C787F9CEE3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A45E51-96A5-4CDE-8ABB-C787F9CEE3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65C9F34-DB0C-4A5C-893F-1945603238EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65C9F34-DB0C-4A5C-893F-1945603238EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65C9F34-DB0C-4A5C-893F-1945603238EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65C9F34-DB0C-4A5C-893F-1945603238EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF01588D-356F-49F7-9DDD-1CE6BBC24323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF01588D-356F-49F7-9DDD-1CE6BBC24323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF01588D-356F-49F7-9DDD-1CE6BBC24323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF01588D-356F-49F7-9DDD-1CE6BBC24323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C5777F-0F82-4033-A7C0-9EDA27EEC37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C5777F-0F82-4033-A7C0-9EDA27EEC37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C5777F-0F82-4033-A7C0-9EDA27EEC37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C5777F-0F82-4033-A7C0-9EDA27EEC37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B856C7F-A138-4B9B-9DD7-BE2A0DA4DB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B856C7F-A138-4B9B-9DD7-BE2A0DA4DB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B856C7F-A138-4B9B-9DD7-BE2A0DA4DB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B856C7F-A138-4B9B-9DD7-BE2A0DA4DB18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2CEC6F1-074E-408B-A34C-049BEE15659E} = {CEA06B2A-2B65-432D-8775-D45AF22E8667}
+		{CCBF0407-EA85-4F53-80F5-91DA0CD5CFDF} = {2E8BAB7C-E48D-4CA3-AFCF-6E6F0113B581}
+		{B3146E2A-B8EE-4F90-ABD5-2EE2F1631B67} = {2E8BAB7C-E48D-4CA3-AFCF-6E6F0113B581}
+		{A7A45E51-96A5-4CDE-8ABB-C787F9CEE3E3} = {03D580BC-21C8-4AA3-AAFA-C8B26C228FAD}
+		{C65C9F34-DB0C-4A5C-893F-1945603238EE} = {03D580BC-21C8-4AA3-AAFA-C8B26C228FAD}
+		{AF01588D-356F-49F7-9DDD-1CE6BBC24323} = {03D580BC-21C8-4AA3-AAFA-C8B26C228FAD}
+		{69C5777F-0F82-4033-A7C0-9EDA27EEC37D} = {97A9556C-B012-4BC9-B443-C18D1E0BC891}
+		{8B856C7F-A138-4B9B-9DD7-BE2A0DA4DB18} = {BFA6F1DB-33CF-4C1C-A217-6DCE795F19F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB30D733-4C3B-44F9-B5ED-500C8721A498}
+	EndGlobalSection
+EndGlobal
